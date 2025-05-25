@@ -38,7 +38,7 @@ src/
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Abdelrahmanyasser69/demoblaze-automation.git
 ```
 
 2. Navigate to project folder and run tests:
@@ -50,6 +50,11 @@ mvn clean test
 - Ensure ChromeDriver version matches your Chrome browser.
 - Test data is loaded from `testData.json`.
 - Screenshots are saved in `screenshots/` directory.
+
+## 📋 Requirements
+- Java JDK 17 or higher
+- Maven installed (`mvn -v` to check)
+- Google Chrome (latest)
 
 ---
 
