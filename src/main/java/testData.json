@@ -1,0 +1,52 @@
+{
+  "LoginData": {
+    "validData": {
+      "validUsername": "Abdelrahman Yasser",
+      "validPassword": "123",
+      "expectedWelcome": "Welcome Abdelrahman Yasser"
+    },
+    "invalidData": {
+      "invalidUsername": "@",
+      "invalidPassword": "1"
+    }
+  },
+  "ProductData": {
+    "addToCartAlertMessage": "Product added.",
+    "products": [
+      {
+        "name": "MacBook Pro",
+        "price": "1100"
+      },
+      {
+        "name": "Sony vaio i7",
+        "price": "790"
+      }
+    ]
+  },
+  "CheckoutData": {
+    "validData": {
+      "name": "Yasser Ismail",
+      "country": "Egypt",
+      "city": "Cairo",
+      "creditCard": "4111111111111111",
+      "month": "05",
+      "year": "2026"
+    },
+    "partialData": {
+      "name": "Mohamed",
+      "country": "Egypt",
+      "city": "",
+      "creditCard": "",
+      "month": "",
+      "year": ""
+    },
+    "invalidCardData": {
+      "name": "Test",
+      "country": "TestCountry",
+      "city": "TestCity",
+      "creditCard": "abcd1234",
+      "month": "12",
+      "year": "2024"
+    }
+  }
+}
